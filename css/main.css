@@ -47,6 +47,7 @@ textarea {
 ul, ol {
     margin: 0;
     padding: 0;
+    list-style-type: none;
 }
 
 .browserupgrade {
@@ -61,14 +62,59 @@ ul, ol {
    Author's custom styles
    ========================================================================== */
 
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
 .container {
     width: 1200px;
     margin: 0 auto;
 }
 
+.content-area {
+    padding: 80px 0;
+    overflow: hidden;
+}
+
+.primary-footer {
+    color: white;
+}
+
 .background-gray {
     background-color: #2F2F2F;
 }
+
+.background-light-gray {
+    background-color: #F1F1F1;
+}
+
+.margin-top-12x {
+    margin-top: 12px;
+}
+
+.margin-top-24x {
+    margin-top: 24px;
+}
+
+
+.button {
+    background-color: #FA9641;
+    border: 1px solid #FA9641;
+    border-radius: 6px;
+    padding: 10px 24px;
+    color: white;
+    font-weight: bold;
+    min-width: 90px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #fcc494;
+}
+
+
 
 
 .primary-header {
@@ -111,7 +157,126 @@ ul, ol {
     display: block;
 }
 
+section.banner .banner-left {
+    float: left;
+    width: 41%;
+    padding-right: 4%;
+}
 
+section.banner .banner-right {
+    float: left;
+    width: 55%;
+}
+
+section.banner .banner-right img {
+    width: 100%;
+}
+
+main {
+    
+}
+
+main ul.learn-more li {
+    float: left;
+    width: 28%;
+    margin-right: 5%;
+}
+
+main ul.learn-more li:last-child {
+    margin-right: 0;
+}
+
+main ul.learn-more li .image-wrapper {
+    width: 100%;
+    height: 260px;
+    overflow: hidden;
+}
+
+main ul.learn-more li .image-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+.footer-medium-width {
+    float: left;
+    width: 30%;
+    padding-right: 4%;
+}
+
+.footer-narrow-width {
+    float: left;
+    width: 32%;
+}
+
+.latest-posts {
+    margin-top: 24px;
+}
+
+.latest-posts li {
+    float: left;
+    width: 100%;
+    margin-bottom: 14px;
+}
+
+.latest-posts li span {
+    display: block;
+}
+
+.latest-posts li .calendar {
+    float: left;
+    width: 60px;
+    height: 56px;
+    background-color: white;
+    border-radius: 6px;
+    text-align: center;
+    color: #2F2F2F;
+    padding-top: 4px;
+}
+
+.latest-posts li .calendar .date-day {
+    font-weight: bold;
+}
+
+.latest-posts li .description {
+    float: left;
+    padding-left: 14px;
+}
+
+.latest-posts li .description .desc-heading {
+    font-weight: bold;
+}
+
+.follow-links li {
+    float: left;
+    width: 100%;
+    margin-bottom: 14px;
+    line-height: 54px;
+}
+
+.follow-links li .social-icon {
+    float: left;
+    width: 54px;
+    height: 54px;
+    background-repeat: no-repeat;
+    background-size: 54px 54px;
+}
+
+.follow-links li .social-icon.social-icon-facebook {
+    background-image: url('/images/facebook.png');
+}
+
+.follow-links li .social-icon.social-icon-twitter {
+    background-image: url('/images/twitter.png');
+}
+
+.follow-links li .social-icon.social-icon-linkedin {
+    background-image: url('/images/linkedin.png');
+}
+
+.follow-links li span {
+    float: left;
+    margin-left: 12px;
+}
 
 
 
